@@ -1,0 +1,10 @@
+.sectionHero{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
+
+.sectionHero :global(.section-content) {
+    display: flex;
+    justify-content: center;
+}
