@@ -1,0 +1,43 @@
+.sectionTasks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listTasks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.itemTask{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 5px;
+    gap: 20px;
+    background-color: rgb(243 243 243);
+}
+
+.itemContent{
+    display: flex;
+    gap: 10px;
+    input, label{
+        cursor: pointer;
+    }
+}
+
+.btnItem{
+    padding: 5px 10px;
+    background-color: #fe0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.5em;
+    &:hover{
+        background-color: #890303;
+        cursor: pointer;
+    }
+}
